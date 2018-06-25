@@ -2,10 +2,13 @@ html
   head
     title= title
   body
-    h2 The Books
-        h4= book
-            #container
-                form(action='/' method='POST')
-                    each item in listbook
-                        li= item
-                        button(type='submit' name='booksubmit') resa
+    h2 The Books  
+    #container
+        hr
+        ol
+            form(action='/resa' method='GET')
+                each item, number in listbook, nb
+                    hr
+                    li= item
+                    button(type='submit' name='bs' value=number) resa
+                    hr
