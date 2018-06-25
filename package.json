@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Simplejul/mediatheque#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "sqlite3": "^4.0.1"
   }
 }
