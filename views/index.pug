@@ -5,6 +5,7 @@ html
     h2 The Books
         h4= book
             #container
-                if (this.listbook)
+                form(action='/' method='POST')
                     each item in listbook
-                      li= item
+                        li= item
+                        button(type='submit' name='booksubmit') resa
